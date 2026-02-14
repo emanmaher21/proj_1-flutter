@@ -117,7 +117,7 @@ class MyApp extends StatelessWidget {
     );
   }
 
-  // دالة بناء الوسم (Tag)
+ 
   Widget _buildTag(String label, Color color) {
     return Chip(
       label: Text(label,
@@ -142,3 +142,4 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
